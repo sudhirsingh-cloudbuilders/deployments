@@ -28,7 +28,7 @@ Deployment of VM Enforcer is supported by two modes as explained below.
 
 #### Online mode
 
-Deploying VM Enforcer in the online mode can download the archive file from aqua and stores in the current directory automatically. Add the following flags in the `Install_vme.sh` script to deploy VM Enforcer.
+Deploying VM Enforcer in the online mode can download the archive file from aqua and stores in the current directory automatically. Add the following flags in the `install_vme.sh` script to deploy VM Enforcer.
 
 
 ```shell
@@ -52,7 +52,7 @@ TLS verify Flag (Optional):
 
 **Prerequisite:** You should download archive file and aqua templates from aqua repository manually and store in the current directory. 
 
-Add the following flags in the `Install_vme.sh` script to deploy VM Enforcer in the offline mode.
+Add the following flags in the `install_vme.sh` script to deploy VM Enforcer in the offline mode.
 
 ```shell
 sudo ./install_vme.sh [flags]
@@ -70,6 +70,6 @@ TLS verify Flag (Optional):
 
 ```
 cd deployments/enforcers/vm_enforcer/shell/
-chmod +x ./install_vme.sh
+chmod +x ./uninstall_vme.sh
 sudo ./uninstall_vme.sh
 ```
